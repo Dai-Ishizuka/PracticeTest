@@ -25,6 +25,12 @@
 		4AA715B222C4FD0A0049EF9D /* SubTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA715B122C4FD0A0049EF9D /* SubTableViewCell.xib */; };
 		4AA715B522C5DBDA0049EF9D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA715B322C5DBDA0049EF9D /* ThirdViewController.swift */; };
 		4AA715B622C5DBDA0049EF9D /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA715B422C5DBDA0049EF9D /* ThirdViewController.xib */; };
+		4AA715B822C98E200049EF9D /* ThirdMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA715B722C98E200049EF9D /* ThirdMainView.swift */; };
+		4AA715BA22C98E3E0049EF9D /* ThirdMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA715B922C98E3E0049EF9D /* ThirdMainView.xib */; };
+		4AA715BC22C98F1F0049EF9D /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA715BB22C98F1F0049EF9D /* MainCollectionViewCell.swift */; };
+		4AA715BE22C98F2E0049EF9D /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA715BD22C98F2E0049EF9D /* MainCollectionViewCell.xib */; };
+		4AA715C022C9AB730049EF9D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA715BF22C9AB730049EF9D /* UserModel.swift */; };
+		4AA715C622C9AD080049EF9D /* Fetcher2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA715C522C9AD080049EF9D /* Fetcher2.swift */; };
 		D46A708B7AA3D9E35650FFD3 /* Pods_test29.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132055B49E5C5E0316BB3D2F /* Pods_test29.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +56,12 @@
 		4AA715B122C4FD0A0049EF9D /* SubTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubTableViewCell.xib; sourceTree = "<group>"; };
 		4AA715B322C5DBDA0049EF9D /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		4AA715B422C5DBDA0049EF9D /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		4AA715B722C98E200049EF9D /* ThirdMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMainView.swift; sourceTree = "<group>"; };
+		4AA715B922C98E3E0049EF9D /* ThirdMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdMainView.xib; sourceTree = "<group>"; };
+		4AA715BB22C98F1F0049EF9D /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		4AA715BD22C98F2E0049EF9D /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		4AA715BF22C9AB730049EF9D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4AA715C522C9AD080049EF9D /* Fetcher2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher2.swift; sourceTree = "<group>"; };
 		6A1251BCB49214672EF56176 /* Pods-test29.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test29.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test29/Pods-test29.debug.xcconfig"; sourceTree = "<group>"; };
 		FA468D7BFB236F8E42A7ACFC /* Pods-test29.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test29.release.xcconfig"; path = "Pods/Target Support Files/Pods-test29/Pods-test29.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +115,12 @@
 				4AA715B122C4FD0A0049EF9D /* SubTableViewCell.xib */,
 				4AA715B322C5DBDA0049EF9D /* ThirdViewController.swift */,
 				4AA715B422C5DBDA0049EF9D /* ThirdViewController.xib */,
+				4AA715B722C98E200049EF9D /* ThirdMainView.swift */,
+				4AA715B922C98E3E0049EF9D /* ThirdMainView.xib */,
+				4AA715BB22C98F1F0049EF9D /* MainCollectionViewCell.swift */,
+				4AA715BD22C98F2E0049EF9D /* MainCollectionViewCell.xib */,
+				4AA715BF22C9AB730049EF9D /* UserModel.swift */,
+				4AA715C522C9AD080049EF9D /* Fetcher2.swift */,
 				4AA7159022C45D1B0049EF9D /* Assets.xcassets */,
 				4AA7159222C45D1B0049EF9D /* LaunchScreen.storyboard */,
 				4AA7159522C45D1B0049EF9D /* Info.plist */,
@@ -194,8 +212,10 @@
 				4AA7159422C45D1B0049EF9D /* LaunchScreen.storyboard in Resources */,
 				4AA7159122C45D1B0049EF9D /* Assets.xcassets in Resources */,
 				4AA715B222C4FD0A0049EF9D /* SubTableViewCell.xib in Resources */,
+				4AA715BE22C98F2E0049EF9D /* MainCollectionViewCell.xib in Resources */,
 				4AA715AE22C47F410049EF9D /* MainTableViewCell.xib in Resources */,
 				4AA715B622C5DBDA0049EF9D /* ThirdViewController.xib in Resources */,
+				4AA715BA22C98E3E0049EF9D /* ThirdMainView.xib in Resources */,
 				4AA7158F22C45D170049EF9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +283,13 @@
 				4AA7159D22C45E1F0049EF9D /* TopViewController.swift in Sources */,
 				4AA715B022C4FCF80049EF9D /* SubTableViewCell.swift in Sources */,
 				4AA715A022C45E880049EF9D /* TopMainView.swift in Sources */,
+				4AA715B822C98E200049EF9D /* ThirdMainView.swift in Sources */,
 				4AA715AC22C47F100049EF9D /* MainTableViewCell.swift in Sources */,
+				4AA715BC22C98F1F0049EF9D /* MainCollectionViewCell.swift in Sources */,
+				4AA715C622C9AD080049EF9D /* Fetcher2.swift in Sources */,
 				4AA715B522C5DBDA0049EF9D /* ThirdViewController.swift in Sources */,
 				4AA7158A22C45D170049EF9D /* AppDelegate.swift in Sources */,
+				4AA715C022C9AB730049EF9D /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
