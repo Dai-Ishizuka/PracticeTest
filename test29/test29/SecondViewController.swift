@@ -28,7 +28,16 @@ extension SecondViewController {
 // MARK: - Protocol
 extension SecondViewController:SecondMainViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        navigationController?.popViewController(animated: true)
+        
+        
+        switch indexPath.row % 2 {
+        case 0:
+            navigationController?.popViewController(animated: true)
+        default:
+            let vc: ThirdViewController = ThirdViewController()
+            transitionViewController(from: self, to: vc)
+        }
+        
     }
     
     

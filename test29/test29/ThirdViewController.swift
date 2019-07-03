@@ -12,10 +12,18 @@ import PGFramework
 // MARK: - Property
 class ThirdViewController: BaseViewController {
     
+    @IBOutlet weak var ThirdMainView: ThirdMainView!
 }
 
 // MARK: - Life cycle
 extension ThirdViewController {
+    override func loadView() {
+        super.loadView()
+        UserModel.reads { (aaa) in    //aaaにreadsを入れていく
+            self.ThirdMainView.userModels = aaa
+            self.ThirdMainView.collectionView.reloadData()  //既存の関数　これを入れることによってセルに表示される
+        }
+    }
     
 }
 
